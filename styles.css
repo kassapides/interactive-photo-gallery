@@ -1,0 +1,44 @@
+
+img {
+    width:275px;
+  height:275px;
+  
+    padding-left: 50px;
+   
+
+}
+
+
+
+
+
+.first-row, .second-row, .third-row {
+
+    display: flex;
+	flex-direction: row;
+	
+	padding-left: 1px;
+	
+	padding-right: 1px;
+}
+
+.first-row {
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+
+.second-row {
+
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+}
+
+.third-row {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 300px;
+} 
