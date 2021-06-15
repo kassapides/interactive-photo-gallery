@@ -1,44 +1,54 @@
 
+
+.search-bar {
+background-color: aquamarine;
+}
+#searchbar{
+    margin-left: 35%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 30%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  /* When the input field gets focus,
+       change its width to 100% */
+  input[type=text]:focus {
+    width: 70%;
+    
+  }
+
+ #list{
+   font-size:  1em;
+   margin-left: 90px;
+   /*color: white; */
+
+  }
+
+.animals{
+  display: list-item;    
+ } 
+
 img {
     width:275px;
   height:275px;
   
     padding-left: 50px;
-   
+   }
 
+.gallery-pics{
+  display:grid;
+  max-width: 1000px;
+  grid-gap: 15px;
+  padding: 25px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;
+  
+  justify-content: center;
+  margin: auto;
 }
 
-
-
-
-
-.first-row, .second-row, .third-row {
-
-    display: flex;
-	flex-direction: row;
-	
-	padding-left: 1px;
-	
-	padding-right: 1px;
-}
-
-.first-row {
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 300px;
-}
-
-.second-row {
-
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 300px;
-}
-
-.third-row {
-    padding-top: 20px;
-    padding-bottom: 40px;
-    padding-left: 300px;
-} 
