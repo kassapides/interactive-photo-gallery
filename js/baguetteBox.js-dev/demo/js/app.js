@@ -1,9 +1,10 @@
 
 
-baguetteBox.run('.gallery');
+baguetteBox.run('.gallery-pics');
 const search = new Filter('search', 'data-caption');
 
 function search_animal() {
+    console.log('appjs works')
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
     let x = document.getElementsByClassName('animals');
@@ -20,7 +21,7 @@ function search_animal() {
 
 
 $(function() {
-    baguetteBox.run('.gallery', {
+    baguetteBox.run('.gallery-pics', {
     
     });    
 });
