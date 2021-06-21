@@ -1,7 +1,7 @@
 
 
 baguetteBox.run('.gallery-pics');
-const search = new Filter('search', 'data-caption');
+
 
 function search_animal() {
     console.log('appjs works')
@@ -20,12 +20,7 @@ function search_animal() {
 }
 
 
-$(function() {
-    baguetteBox.run('.gallery-pics', {
-    
-    });    
-});
-
+var data-caption = document.querySelectorAll("a").getAttribute("pics");
 
 
 
