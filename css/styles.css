@@ -18,7 +18,7 @@ background-color: aquamarine;
   /* When the input field gets focus,
        change its width to 100% */
   input[type=text]:focus {
-    width: 70%;
+    
     
   }
 
@@ -35,8 +35,8 @@ background-color: aquamarine;
  } 
 
 img {
-    width:275px;
-  height:275px;
+    width:350px;
+  height:350px;
   
     padding-left: 50px;
    }
@@ -46,11 +46,15 @@ img {
   max-width: 1000px;
   grid-gap: 15px;
   padding: 25px;
-  grid-template-columns: 300px 300px 300px 300px;
-  grid-template-rows: 300px 300px 300px 300px;
+  grid-template-columns: 380px 380px 380px 380px;
+  grid-template-rows: 380px 380px 380px 380px;
   
   justify-content: center;
   margin: auto;
+}
+
+a {
+  font-size: 0rem;
 }
 
 
